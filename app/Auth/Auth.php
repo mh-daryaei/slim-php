@@ -6,20 +6,37 @@ use App\Models\User;
 
 class Auth
 {
-    public function attempt($email,$password)
+    public function user()
     {
-        $user = User::where('email',$email)->first();
+        if (isset($_SESSION['user'])) {
+            return User::find($_SESSION['user']);
+        }
+    }
 
-        if(!$user){
+    public function check()
+    {
+        return isset($_SESSION['user']);
+    }
+
+    public function attempt($email, $password)
+    {
+        $user = User::where('email', $email)->first();
+
+        if (!$user) {
             return false;
         }
 
 
-        if(password_verify($password , $user->password)){
+        if (password_verify($password, $user->password)) {
             $_SESSION['user'] = $user->id;
             return true;
         }
 
-        return 'false';
+        return true;
+    }
+
+    public function logut()
+    {
+        unset($_SESSION['user']);
     }
 }

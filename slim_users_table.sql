@@ -1,0 +1,10 @@
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (1, 'ali', 'ali@gmail.com', '', '2020-03-19 01:48:10', null);
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (2, 'hamed', 'hamed@gmail.com', '123', '2020-03-20 17:55:52', '2020-03-20 17:55:52');
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (3, 'nafise', 'nafise@gmail.com', '321', '2020-03-20 17:56:58', '2020-03-20 17:56:58');
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (4, 'ali', 'ali@gmail.com', '$2y$10$y4aKky29oKER9U065b607ez', '2020-03-20 21:41:55', '2020-03-20 21:41:55');
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (5, 'sadegh', 'sadegh@gmail.com', '$2y$10$aMwXv5IN3KahWg//ZvSGYOn', '2020-03-20 21:43:00', '2020-03-20 21:43:00');
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (6, 'fateme', 'fati@gmail.com', '$2y$10$FQ6x56q16bdB7m6AooXmHua', '2020-03-21 12:03:52', '2020-03-21 12:03:52');
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (8, 'hamid', 'hamid@gmail.com', '$2y$10$PUtLKxhbJ53HUMAN5DkyU.h', '2020-03-21 13:49:13', '2020-03-21 13:49:13');
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (9, 'reza', 'reza@gmail.com', 'bb98b1d0b523d5e783f931550d7702', '2020-03-21 22:06:10', '2020-03-21 18:24:26');
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (10, 'asad', 'asad@gmail.com', '$2y$10$7NjPqz5zDjIYZAP.ZCiti.c', '2020-03-21 18:37:11', '2020-03-21 18:37:11');
+INSERT INTO slim.users (id, name, email, password, created_at, updated_at) VALUES (11, 'mhd', 'mhd@gmail.com', '$2y$10$sULtaPUUdhCD850hsocRIOT', '2020-03-21 20:35:23', '2020-03-21 20:35:23');
